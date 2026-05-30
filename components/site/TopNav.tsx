@@ -95,7 +95,7 @@ export function TopNav() {
               >
                 {l.label}
                 {isActive && (
-                  <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gold" />
+                  <div className="absolute -bottom-2 left-0 right-0 h-1 bg-primary" />
                 )}
                 <div className="absolute -bottom-2 left-0 right-0 h-1 bg-accent/60 rounded-full scale-x-0 hover:scale-x-100 transition-transform duration-300 ease-in-out origin-center" />
               </Link>

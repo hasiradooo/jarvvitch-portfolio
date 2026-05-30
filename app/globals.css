@@ -55,9 +55,17 @@
   --color-storm-dust-900: oklch(0.3572 0.0014 17.22);
   --color-storm-dust-950: oklch(0.2686 0 0);
 
-  --color-gold: oklch(0.6953 0.0973 79.6);
-  --color-gold-foreground: oklch(0.9705 0.0098 87.47);
-  --color-gold-darker: oklch(0.2563 0.0357 39.19);
+  --color-twine-50: oklch(98.7% 0.014 99.053);
+  --color-twine-100: oklch(96.91% 0.0379 99.803);
+  --color-twine-200: oklch(93.75% 0.0714 98.668);
+  --color-twine-300: oklch(89.57% 0.1007 95.009);
+  --color-twine-400: oklch(84.31% 0.111 88.49);
+  --color-twine-500: oklch(78.52% 0.1053 79.603);
+  --color-twine-600: oklch(69.53% 0.0973 79.603);
+  --color-twine-700: oklch(55.4% 0.0824 59.534);
+  --color-twine-800: oklch(47.45% 0.0694 55.559);
+  --color-twine-900: oklch(41.81% 0.0574 52.806);
+  --color-twine-950: oklch(28.32% 0.0397 50.197);
 }
 
 :root {
@@ -68,8 +76,8 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.7679 0.0787 84.52);
-  --primary-foreground: oklch(0.985 0 0);
+  --primary: var(--color-twine-500);
+  --primary-foreground: var(--color-twine-950);
   --secondary: var(--color-storm-dust-800);
   --secondary-foreground: var(--color-storm-dust-50);
   --muted: var(--color-storm-dust-50);

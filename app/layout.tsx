@@ -6,6 +6,7 @@ import { SITE, HEADER_IMAGE } from "@/content/Site";
 import { Footer } from "@/components/site/Footer";
 import { HeaderBanner } from "@/components/site/HeaderBanner";
 import { Shell } from "@/components/site/Shell";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,6 +59,7 @@ export default function RootLayout({
           <HeaderBanner />
           <main>{children}</main>
           <Footer />
+          <Toaster />
         </Shell>
       </body>
     </html>
